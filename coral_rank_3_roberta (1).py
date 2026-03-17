@@ -8,7 +8,6 @@ Original file is located at
 """
 
 import pandas as pd
-import numpy as np
 from google.colab import drive, userdata
 drive.mount('/content/gdrive')
 !pip install openai
@@ -20,9 +19,7 @@ from collections import defaultdict, Counter
 import json
 import numpy as np
 import torch
-import random
-import numpy as np
-import torch
+
 
 random.seed(42)
 np.random.seed(42)
